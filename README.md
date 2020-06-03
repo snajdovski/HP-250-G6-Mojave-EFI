@@ -1,7 +1,14 @@
 # HP-250-G6-Mojave-EFI
-EFI folder for macOS Mojave Hackintosh (i3 6006u variant) 250 G6 HP Laptop
+
+
+<p align="center">
+  EFI folder for macOS Mojave Hackintosh (i3 6006u variant) 250 G6 HP Laptop
+<img src="https://i.imgur.com/vDsWHia.png" alt="look">
+</p>
+
 ## What Works:
 ```
+Almost Everything
 Audio (Low volume issue but works)
 Backlight 
 Video Accelariton (1536 Mb Vram)
