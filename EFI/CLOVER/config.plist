@@ -194,7 +194,9 @@
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string>dart=0 nv_disable=1 -cdfon -igfxnohdmi</string>
+		<string>dart=0 nv_disable=1 -cdfon -igfxnohdmi -v</string>
+		<key>CustomLogo</key>
+		<string>None</string>
 		<key>NeverHibernate</key>
 		<true/>
 		<key>Secure</key>
@@ -486,6 +488,69 @@
 				<data>igKEwOtC</data>
 			</dict>
 		</array>
+		<key>KextsToPatch</key>
+		<array>
+			<dict>
+				<key>Comment</key>
+				<string>USB Port Limit Patch#1 10.14.4 ©PMHeart</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>g/sPDw==</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>MatchOS</key>
+				<string>10.14.4</string>
+				<key>Name</key>
+				<string>com.apple.iokit.IOUSBHostFamily</string>
+				<key>Replace</key>
+				<data>g/s/Dw==</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>USB Port Limit Patch#2 10.14.4 ©PMHeart</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>g/sPDw==</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>MatchOS</key>
+				<string>10.14.4</string>
+				<key>Name</key>
+				<string>com.apple.driver.usb.AppleUSBXHCI</string>
+				<key>Replace</key>
+				<data>g/s/Dw==</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>USB Port Limit Patch#3 10.14.4 ©PMHeart</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>g+MP0w==</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>MatchOS</key>
+				<string>10.14.4</string>
+				<key>Name</key>
+				<string>com.apple.iokit.IOUSBHostFamily</string>
+				<key>Replace</key>
+				<data>g+M/0w==</data>
+			</dict>
+			<dict>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>g/8PDw==</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>com.apple.driver.usb.AppleUSBXHCI</string>
+				<key>Replace</key>
+				<data>g/8/Dw==</data>
+			</dict>
+		</array>
 	</dict>
 	<key>RtVariables</key>
 	<dict>
@@ -497,17 +562,17 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>01/31/2020</string>
+		<string>04/24/2020</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP131.88Z.F000.B00.2001311752</string>
+		<string>MBP141.88Z.F000.B00.2004240928</string>
 		<key>Board-ID</key>
-		<string>Mac-473D31EABEB93F9B</string>
+		<string>Mac-B4831CEBD52A0C4C</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02643500GUHMHKA8</string>
+		<string>C02816802QXHWVPCB</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -519,7 +584,7 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>243.0.0.0.0</string>
+		<string>207.0.0.0.0</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
@@ -535,11 +600,11 @@
 		<key>PlatformFeature</key>
 		<string>0x1A</string>
 		<key>ProductName</key>
-		<string>MacBookPro13,1</string>
+		<string>MacBookPro14,1</string>
 		<key>SerialNumber</key>
-		<string>C02SL0ZRGVC1</string>
+		<string>C02WLYYDHV29</string>
 		<key>SmUUID</key>
-		<string>32A26917-B9ED-4A2E-A2B1-AE574761CFF2</string>
+		<string>B32789CC-6A97-4E2D-B7F2-A590F5579CA2</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
