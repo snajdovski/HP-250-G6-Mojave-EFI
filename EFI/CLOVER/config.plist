@@ -150,13 +150,13 @@
 					<data>SUdQVQhfQURSDAAAAgA=</data>
 				</dict>
 			</array>
+			<key>SlpSmiAtWake</key>
+			<true/>
+			<key>SuspendOverride</key>
+			<true/>
 		</dict>
-		<key>DisabledAML</key>
-		<array>
-			<string>SSDT.aml</string>
-			<string>SSDT-XCPM.aml</string>
-			<string>SSDT-PluginType1.aml</string>
-		</array>
+		<key>DisableASPM</key>
+		<true/>
 		<key>DropTables</key>
 		<array>
 			<dict>
@@ -175,6 +175,8 @@
 			</dict>
 		</array>
 		<key>FixHeaders</key>
+		<true/>
+		<key>PatchAPIC</key>
 		<true/>
 		<key>SSDT</key>
 		<dict>
@@ -196,7 +198,7 @@
 		<key>Arguments</key>
 		<string>dart=0 nv_disable=1 -cdfon -igfxnohdmi -v</string>
 		<key>CustomLogo</key>
-		<string>None</string>
+		<false/>
 		<key>NeverHibernate</key>
 		<true/>
 		<key>Secure</key>
