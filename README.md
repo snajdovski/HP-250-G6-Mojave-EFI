@@ -14,10 +14,10 @@ Backlight
 Video Accelariton (1536 Mb Vram)
 Touchpad
 Keyboard
+Sleep (Mojave)
 ```
 ## What doesn't work:
 ```
-Sleep :(
 Built in Wifi but there is hope as a Wifi Intel Driver is already in process of developing, when its ready I will update the EFI folder
 ```
 
