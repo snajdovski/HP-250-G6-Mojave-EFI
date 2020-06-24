@@ -9,7 +9,7 @@
 ## What Works:
 ```
 Almost Everything
-Audio (Low volume issue but works)
+Audio
 Backlight 
 Video Accelariton (1536 Mb Vram)
 Touchpad
