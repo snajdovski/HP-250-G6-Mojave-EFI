@@ -20,6 +20,10 @@ Sleep (Mojave)
 ## What doesn't work:
 ```
 Built in Wifi but there is hope as a Wifi Intel Driver is already in process of developing, when its ready I will update the EFI folder
+Update:
+In order to make wifi work you could use the Open Source port of the Intel Wifi driver found here:
+https://github.com/OpenIntelWireless/itlwm
+
 ```
 
 ## What is new with the latest commit:
