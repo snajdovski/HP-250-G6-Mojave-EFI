@@ -1,6 +1,6 @@
 # HP-250-G6-Mojave-EFI
 
-##Early Port of OpenCore https://github.com/snajdovski/HP-250-G6-OpenCore
+#Port of OpenCore can be found here: https://github.com/snajdovski/HP-250-G6-OpenCore
 
 <p align="center">
   EFI folder for macOS Mojave Hackintosh (i3 6006u variant) 250 G6 HP Laptop
